@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" font-family="'Outfit', -apple-system, 'Segoe UI', 'PingFang SC', sans-serif">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00bfa5"/><stop offset="1" stop-color="#00796b"/></linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c9379e"/><stop offset="1" stop-color="#8e2a72"/></linearGradient>
+    <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4a9eff"/><stop offset="1" stop-color="#2563eb"/></linearGradient>
+    <linearGradient id="g4" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#a855f7"/><stop offset="1" stop-color="#7c3aed"/></linearGradient>
+    <linearGradient id="g5" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f97316"/><stop offset="1" stop-color="#ea580c"/></linearGradient>
+    <linearGradient id="g6" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22c55e"/><stop offset="1" stop-color="#15803d"/></linearGradient>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="1200" height="680" fill="#f0f5f9"/>
+
+  <!-- ===== 顶部导航栏 ===== -->
+  <rect width="1200" height="64" fill="#ffffff"/>
+  <rect y="63" width="1200" height="1" fill="#e5e5ea"/>
+  <!-- logo -->
+  <path d="M28 25a3 3 0 0 0-3 3v18a3 3 0 0 0 3 3h24a3 3 0 0 0 3-3V34a3 3 0 0 0-3-3H42l-4-4h-7a3 3 0 0 0-3-3z" fill="#00a896"/>
+  <text x="60" y="38" font-size="17" font-weight="700"><tspan fill="#00bfa5">XL</tspan><tspan fill="#1d1d1f"> Center</tspan></text>
+  <!-- 导航项 -->
+  <text x="230" y="38" font-size="14" font-weight="600" fill="#00bfa5">仪表板</text>
+  <rect x="230" y="44" width="42" height="2" fill="#00bfa5"/>
+  <text x="316" y="38" font-size="14" fill="#6e6e73">影片库</text>
+  <text x="402" y="38" font-size="14" fill="#6e6e73">收藏夹</text>
+  <text x="488" y="38" font-size="14" fill="#6e6e73">管理</text>
+  <!-- 搜索框 -->
+  <rect x="800" y="18" width="250" height="34" rx="9" fill="#ffffff" stroke="#a8e6cf"/>
+  <circle cx="822" cy="35" r="6" fill="none" stroke="#86868b" stroke-width="1.5"/>
+  <line x1="826.5" y1="39.5" x2="831" y2="44" stroke="#86868b" stroke-width="1.5"/>
+  <text x="836" y="39" font-size="13" fill="#999999">搜索影片...</text>
+  <rect x="1026" y="23" width="24" height="24" rx="6" fill="#a8e6cf"/>
+  <!-- 图标按钮 -->
+  <circle cx="1078" cy="35" r="16" fill="#c9379e"/>
+  <circle cx="1112" cy="35" r="16" fill="#f0f5f9" stroke="#e5e5ea"/>
+
+  <!-- ===== 模块标题 ===== -->
+  <circle cx="34" cy="99" r="9" fill="none" stroke="#00bfa5" stroke-width="1.6"/>
+  <text x="50" y="104" font-size="18" font-weight="600" fill="#1d1d1f">最近添加</text>
+  <text x="1130" y="103" font-size="13" fill="#86868b">查看更多</text>
+
+  <!-- ===== 海报墙（6 张卡） ===== -->
+  <!-- 卡1 -->
+  <g>
+    <rect x="28" y="118" width="168" height="252" rx="10" fill="url(#g1)"/>
+    <text x="112" y="260" font-size="52" font-weight="700" fill="#ffffff" opacity="0.9" text-anchor="middle">星</text>
+    <rect x="28" y="378" width="168" height="52" rx="0" fill="#ffffff" stroke="#e5e5ea"/>
+    <text x="38" y="400" font-size="13" font-weight="600" fill="#1d1d1f">星际穿越</text>
+    <text x="38" y="418" font-size="11" fill="#86868b">2014 · ★ 9.4</text>
+  </g>
+  <!-- 卡2 -->
+  <g>
+    <rect x="212" y="118" width="168" height="252" rx="10" fill="url(#g2)"/>
+    <text x="296" y="260" font-size="52" font-weight="700" fill="#ffffff" opacity="0.9" text-anchor="middle">盗</text>
+    <rect x="212" y="378" width="168" height="52" rx="0" fill="#ffffff" stroke="#e5e5ea"/>
+    <text x="222" y="400" font-size="13" font-weight="600" fill="#1d1d1f">盗梦空间</text>
+    <text x="222" y="418" font-size="11" fill="#86868b">2010 · ★ 9.3</text>
+  </g>
+  <!-- 卡3 -->
+  <g>
+    <rect x="396" y="118" width="168" height="252" rx="10" fill="url(#g3)"/>
+    <text x="480" y="260" font-size="52" font-weight="700" fill="#ffffff" opacity="0.9" text-anchor="middle">千</text>
+    <rect x="396" y="378" width="168" height="52" rx="0" fill="#ffffff" stroke="#e5e5ea"/>
+    <text x="406" y="400" font-size="13" font-weight="600" fill="#1d1d1f">千与千寻</text>
+    <text x="406" y="418" font-size="11" fill="#86868b">2001 · ★ 9.4</text>
+  </g>
+  <!-- 卡4 -->
+  <g>
+    <rect x="580" y="118" width="168" height="252" rx="10" fill="url(#g4)"/>
+    <text x="664" y="260" font-size="52" font-weight="700" fill="#ffffff" opacity="0.9" text-anchor="middle">你</text>
+    <rect x="580" y="378" width="168" height="52" rx="0" fill="#ffffff" stroke="#e5e5ea"/>
+    <text x="590" y="400" font-size="13" font-weight="600" fill="#1d1d1f">你的名字</text>
+    <text x="590" y="418" font-size="11" fill="#86868b">2016 · ★ 8.5</text>
+  </g>
+  <!-- 卡5 -->
+  <g>
+    <rect x="764" y="118" width="168" height="252" rx="10" fill="url(#g5)"/>
+    <text x="848" y="260" font-size="52" font-weight="700" fill="#ffffff" opacity="0.9" text-anchor="middle">肖</text>
+    <rect x="764" y="378" width="168" height="52" rx="0" fill="#ffffff" stroke="#e5e5ea"/>
+    <text x="774" y="400" font-size="13" font-weight="600" fill="#1d1d1f">肖申克的救赎</text>
+    <text x="774" y="418" font-size="11" fill="#86868b">1994 · ★ 9.7</text>
+  </g>
+  <!-- 卡6 -->
+  <g>
+    <rect x="948" y="118" width="168" height="252" rx="10" fill="url(#g6)"/>
+    <text x="1032" y="260" font-size="52" font-weight="700" fill="#ffffff" opacity="0.9" text-anchor="middle">霸</text>
+    <rect x="948" y="378" width="168" height="52" rx="0" fill="#ffffff" stroke="#e5e5ea"/>
+    <text x="958" y="400" font-size="13" font-weight="600" fill="#1d1d1f">霸王别姬</text>
+    <text x="958" y="418" font-size="11" fill="#86868b">1993 · ★ 9.6</text>
+  </g>
+
+  <!-- ===== 统计区 ===== -->
+  <!-- 面板1 -->
+  <rect x="28" y="470" width="572" height="150" rx="12" fill="#ffffff" stroke="#e5e5ea"/>
+  <text x="48" y="500" font-size="14" font-weight="600" fill="#1d1d1f">媒体总览</text>
+  <rect x="120" y="488" width="40" height="18" rx="4" fill="#f0f5f9"/>
+  <text x="127" y="501" font-size="10" fill="#86868b">Live</text>
+  <rect x="48" y="518" width="168" height="84" rx="8" fill="#f5f5f7"/>
+  <text x="132" y="556" font-size="26" font-weight="700" fill="#1d1d1f" text-anchor="middle">1248</text>
+  <text x="132" y="578" font-size="11" fill="#86868b" text-anchor="middle">影片</text>
+  <rect x="230" y="518" width="168" height="84" rx="8" fill="#f5f5f7"/>
+  <text x="314" y="556" font-size="26" font-weight="700" fill="#1d1d1f" text-anchor="middle">342</text>
+  <text x="314" y="578" font-size="11" fill="#86868b" text-anchor="middle">演员</text>
+  <rect x="412" y="518" width="168" height="84" rx="8" fill="#f5f5f7"/>
+  <text x="496" y="556" font-size="26" font-weight="700" fill="#1d1d1f" text-anchor="middle">86</text>
+  <text x="496" y="578" font-size="11" fill="#86868b" text-anchor="middle">收藏</text>
+
+  <!-- 面板2 -->
+  <rect x="616" y="470" width="572" height="150" rx="12" fill="#ffffff" stroke="#e5e5ea"/>
+  <text x="636" y="500" font-size="14" font-weight="600" fill="#1d1d1f">今日动态</text>
+  <rect x="636" y="518" width="168" height="84" rx="8" fill="#f5f5f7"/>
+  <text x="720" y="556" font-size="26" font-weight="700" fill="#1d1d1f" text-anchor="middle">12</text>
+  <text x="720" y="578" font-size="11" fill="#86868b" text-anchor="middle">今日新增</text>
+  <rect x="818" y="518" width="168" height="84" rx="8" fill="#f5f5f7"/>
+  <text x="902" y="556" font-size="26" font-weight="700" fill="#1d1d1f" text-anchor="middle">47</text>
+  <text x="902" y="578" font-size="11" fill="#86868b" text-anchor="middle">本周新增</text>
+  <rect x="1000" y="518" width="168" height="84" rx="8" fill="#f5f5f7"/>
+  <text x="1084" y="556" font-size="26" font-weight="700" fill="#1d1d1f" text-anchor="middle">203</text>
+  <text x="1084" y="578" font-size="11" fill="#86868b" text-anchor="middle">本月新增</text>
+</svg>

@@ -1,5 +1,25 @@
 # XL Center
 
+<div align="center">
+  <img src="assets/logo.svg" alt="XL Center" width="260" />
+  <h3>Emby 风格的本地媒体管理中心</h3>
+  <p>
+    <img src="https://img.shields.io/docker/pulls/desstg/xl-center?style=flat-square&logo=docker&label=pulls&color=2496ED" alt="Docker Pulls" />
+    <img src="https://img.shields.io/badge/vue-3.x-42b883?style=flat-square&logo=vue.js&logoColor=white" alt="Vue" />
+    <img src="https://img.shields.io/badge/node-24-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js" />
+    <img src="https://img.shields.io/badge/typescript-5.x-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+    <img src="https://img.shields.io/badge/license-free--for--personal--use-lightgrey?style=flat-square" alt="License" />
+  </p>
+</div>
+
+<br />
+
+<div align="center">
+  <img src="assets/screenshot.svg" alt="XL Center 界面预览" width="100%" />
+</div>
+
+<br />
+
 一个 **Emby 风格的本地媒体管理中心**，专为「已经用 NFO 刮削好的视频库」设计。扫描本地目录，把影片（含海报、简介、演员、标签、番号等元数据）入库，提供海报墙浏览、详情页、多条件搜索和浏览器播放。
 
 - 后端：Node.js + TypeScript + Express + SQLite（better-sqlite3）
