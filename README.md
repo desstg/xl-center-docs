@@ -199,3 +199,4 @@ A：当前版本只支持电影库，剧集扫描仍在开发中。
 ## 📄 许可证
 
 本软件通过 Docker Hub 公开分发，供个人学习与使用。源码仓库暂不公开。
+docker hub: https://hub.docker.com/r/desstg/xl-center
